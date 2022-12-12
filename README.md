@@ -49,6 +49,10 @@ When the service starts,if there is a service running with the same ID, then the
 So make sure that the first ID parameter is unique every time you start the service.  
 
 The specific usage and parameters of these services can be found in [proxy manual](https://github.com/snail007/goproxy/blob/master/README.md) 
+### Debugging
+setting as image, No Filters, Keyword: GoLog, will show all sdk output.
+<img width="1839" alt="image" src="https://user-images.githubusercontent.com/4533203/207058497-04cdb275-c05b-4a50-8b11-ee48a7dd8ae1.png">
+
 # Important
 The SDK args parameter does not support the `--daemon` and `--forever`.
 
